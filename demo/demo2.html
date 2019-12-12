@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./demo2.css">
+    <link rel="stylesheet" href="node_modules/layui-src/src/css/layui.css" media="all">
+    <script src="./js/jquery.min.js"></script>
+</head>
+
+<body class="g-body">
+    <div class="g-header">
+        <div class="g-logo">
+            <div class="logo-warp">
+                <a href="javascript:;" title="China Mobile" class="logo"></a>
+                <h1 class="title" title="业务支撑网运营管理系统"></h1>
+            </div>
+            <div class="search-warp">
+                <ul class="search-nav">
+                    <li class="p12 active">全部</li>
+                    <li class="p12">工单</li>
+                    <li class="p12">告警</li>
+                    <li class="p12">通讯录</li>
+                </ul>
+                <div class="search-box">
+                    <input type="text" class="f12 c6" name="" placeholder="请输入">
+                    <button class="" type="button">搜索</button>
+                </div>
+
+            </div>
+            <div class="person-warp">
+                <img src="" alt="">
+                <span>xxxx</span>
+            </div>
+        </div>
+        <ul class="g-nav">
+            <li > <a href="javascript:;" class="active-this">首页</a> </li>
+            <li><a href="javascript:;">监控管理中心</a></li>
+            <li><a href="javascript:;">运维管理中心</a></li>
+            <li><a href="javascript:;">运营分析中心</a></li>
+            <li><a href="javascript:;">资源管理中心</a></li>
+            <li><a href="javascript:;">知识库</a></li>
+            <li><a href="javascript:;">通讯录</a></li>
+        </ul>
+    </div>
+    <div class="g-container">
+        <div class="g-carousel">
+            <div class="m-carousel">
+                <div class="layui-carousel" id="carousel">
+                    <div carousel-item>
+                        <img src="" alt="">
+                        <img src="" alt="">
+                        <img src="" alt="">
+                        <img src="" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div id="calendar" class="calendar">
+                <!-- <link rel="stylesheet" href="./css/calendar.css"> -->
+                <script src="./js/jquery.min.js"></script>
+                <script src="./js/calendar.js"></script>
+
+            </div>
+        </div>
+        <div class="g-notice" id="wrapper">
+            <h2>公告</h2>
+            <div class="a">
+            <ul>
+                <li > <b>|</b>1施强：高端专业语言教学 [11-11]</li>
+                <li> <b>|</b>2施强：高端专业语言教学 [11-11]</li>
+                <li> <b>|</b>3施强：高端专业语言教学 [11-11]</li>
+                <li> <b>|</b>4施强：高端专业语言教学 [11-11]</li>
+                <li> <b>|</b>5施强：高端专业语言教学 [11-11]</li>
+                <li> <b>|</b>6施强：高端专业语言教学 [11-11]</li>
+                <li> <b>|</b>7施强：高端专业语言教学 [11-11]</li>
+                <li> <b>|</b>8施强：高端专业语言教学 [11-11]</li>
+                <li> <b>|</b>9施强：高端专业语言教学 [11-11]</li>
+            </ul>
+        </div>
+            <a href="javascript:;" id="g-notice-prev">
+                <</a> <a href="javascript:;" id="g-notice-next">>
+            </a>
+        </div>
+        <div class="g-form">
+            <div class="f-table">
+                <div class="f-tab-top">
+                    <h2 class="h2-active"> 功能菜单</h2>
+                    <h2 class=""> 我的告警</h2>
+                </div>
+                <div class="f-tab-middle">
+                    <p>我的代办<span class="c1">（12）</span></p>
+                    <p>我的已办<span class="c1">（12）</span></p>
+                    <p>我的草稿<span class="c1">（12）</span></p>
+                </div>
+                <div class="table-box">
+                    <table class="layui-table" lay-even="" lay-skin="nob">
+                        <colgroup>
+                            <col width="150">
+                            <col width="150">
+                            <col width="200">
+                            <col>
+                            <col width="80">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>人物</th>
+                                <th>民族</th>
+                                <th>出场时间</th>
+                                <th>格言</th>
+                                <th>流程图</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>贤心</td>
+                                <td>汉族</td>
+                                <td>1989-10-14</td>
+                                <td>人生似修行</td>
+                                <td>
+                                    <img src="./image/gongzuoliuchengtu.png" title="流程图">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>张爱玲</td>
+                                <td>汉族</td>
+                                <td>1920-09-30</td>
+                                <td>于千万人之中遇见你所遇见的人，于千万年之中，时间的无涯的荒野里…</td>
+                                <td><img src="./image/gongzuoliuchengtu.png" title="流程图"></td>
+                            </tr>
+                            <tr>
+                                <td>Helen Keller</td>
+                                <td>拉丁美裔</td>
+                                <td>1880-06-27</td>
+                                <td> Life is either a daring adventure or nothing.</td>
+                                <td><img src="./image/gongzuoliuchengtu.png" title="流程图"></td>
+                            </tr>
+
+                            <tr>
+                                <td>孟子</td>
+                                <td>华夏族（汉族）</td>
+                                <td>公元前-372年</td>
+                                <td>猿强，则国强。国强，则猿更强！ </td>
+                                <td><img src="./image/gongzuoliuchengtu.png" title="流程图"></td>
+                            </tr>
+                            <tr>
+                                <td>张爱玲</td>
+                                <td>汉族</td>
+                                <td>1920-09-30</td>
+                                <td>于千万人之中遇见你所遇见的人，于千万年之中，时间的无涯的荒野里…</td>
+                                <td><img src="./image/gongzuoliuchengtu.png" title="流程图"></td>
+                            </tr>
+                            <tr>
+                                <td>Helen Keller</td>
+                                <td>拉丁美裔</td>
+                                <td>1880-06-27</td>
+                                <td> Life is either a daring adventure or nothing.</td>
+                                <td><img src="./image/gongzuoliuchengtu.png" title="流程图"></td>
+                            </tr>
+                            <tr>
+                                <td>岳飞</td>
+                                <td>汉族</td>
+                                <td>1103-北宋崇宁二年</td>
+                                <td>教科书再滥改，也抹不去“民族英雄”的事实</td>
+                                <td><img src="./image/gongzuoliuchengtu.png" title="流程图"></td>
+                            </tr>
+                            <tr>
+                                <td>孟子</td>
+                                <td>华夏族（汉族）</td>
+                                <td>公元前-372年</td>
+                                <td>猿强，则国强。国强，则猿更强！ </td>
+                                <td><img src="./image/gongzuoliuchengtu.png" title="流程图"></td>
+                            </tr>
+                            <tr>
+                                <td>Helen Keller</td>
+                                <td>拉丁美裔</td>
+                                <td>1880-06-27</td>
+                                <td> Life is either a daring adventure or nothing.</td>
+                                <td><img src="./image/gongzuoliuchengtu.png" title="流程图"></td>
+                            </tr>
+                            <tr>
+                                <td>岳飞</td>
+                                <td>汉族</td>
+                                <td>1103-北宋崇宁二年</td>
+                                <td>教科书再滥改，也抹不去“民族英雄”的事实</td>
+                                <td><img src="./image/gongzuoliuchengtu.png" title="流程图"></td>
+                            </tr>
+                            <tr>
+                                <td>孟子</td>
+                                <td>华夏族（汉族）</td>
+                                <td>公元前-372年</td>
+                                <td>猿强，则国强。国强，则猿更强！ </td>
+                                <td><img src="./image/gongzuoliuchengtu.png" title="流程图"></td>
+                            </tr>
+                            <tr>
+                                <td>张爱玲</td>
+                                <td>汉族</td>
+                                <td>1920-09-30</td>
+                                <td>于千万人之中遇见你所遇见的人，于千万年之中，时间的无涯的荒野里…</td>
+                                <td><img src="./image/gongzuoliuchengtu.png" title="流程图"></td>
+                            </tr>
+                            <tr>
+                                <td>Helen Keller</td>
+                                <td>拉丁美裔</td>
+                                <td>1880-06-27</td>
+                                <td> Life is either a daring adventure or nothing.</td>
+                                <td><img src="./image/gongzuoliuchengtu.png" title="流程图"></td>
+                            </tr>
+                            <tr>
+                                <td>岳飞</td>
+                                <td>汉族</td>
+                                <td>1103-北宋崇宁二年</td>
+                                <td>教科书再滥改，也抹不去“民族英雄”的事实</td>
+                                <td><img src="./image/gongzuoliuchengtu.png" title="流程图"></td>
+                            </tr>
+                            <tr>
+                                <td>孟子</td>
+                                <td>华夏族（汉族）</td>
+                                <td>公元前-372年</td>
+                                <td>猿强，则国强。国强，则猿更强！ </td>
+                                <td><img src="./image/gongzuoliuchengtu.png" title="流程图"></td>
+                            </tr>
+                            <tr>
+                                <td>Helen Keller</td>
+                                <td>拉丁美裔</td>
+                                <td>1880-06-27</td>
+                                <td> Life is either a daring adventure or nothing.</td>
+                                <td><img src="./image/gongzuoliuchengtu.png" title="流程图"></td>
+                            </tr>
+                            <tr>
+                                <td>岳飞</td>
+                                <td>汉族</td>
+                                <td>1103-北宋崇宁二年</td>
+                                <td>教科书再滥改，也抹不去“民族英雄”的事实</td>
+                                <td><img src="./image/gongzuoliuchengtu.png" title="流程图"></td>
+                            </tr>
+                            <tr>
+                                <td>孟子</td>
+                                <td>华夏族（汉族）</td>
+                                <td>公元前-372年</td>
+                                <td>猿强，则国强。国强，则猿更强！ </td>
+                                <td><img src="./image/gongzuoliuchengtu.png" title="流程图"></td>
+                            </tr>
+                            <tr>
+                                <td>张爱玲</td>
+                                <td>汉族</td>
+                                <td>1920-09-30</td>
+                                <td>于千万人之中遇见你所遇见的人，于千万年之中，时间的无涯的荒野里…</td>
+                                <td><img src="./image/gongzuoliuchengtu.png" title="流程图"></td>
+                            </tr>
+                            <tr>
+                                <td>Helen Keller</td>
+                                <td>拉丁美裔</td>
+                                <td>1880-06-27</td>
+                                <td> Life is either a daring adventure or nothing.</td>
+                                <td><img src="./image/gongzuoliuchengtu.png" title="流程图"></td>
+                            </tr>
+                            <tr>
+                                <td>岳飞</td>
+                                <td>汉族</td>
+                                <td>1103-北宋崇宁二年</td>
+                                <td>教科书再滥改，也抹不去“民族英雄”的事实</td>
+                                <td><img src="./image/gongzuoliuchengtu.png" title="流程图"></td>
+                            </tr>
+                            <tr>
+                                <td>孟子</td>
+                                <td>华夏族（汉族）</td>
+                                <td>公元前-372年</td>
+                                <td>猿强，则国强。国强，则猿更强！ </td>
+                                <td><img src="./image/gongzuoliuchengtu.png" title="流程图"></td>
+                            </tr>
+                            <tr>
+                                <td>Helen Keller</td>
+                                <td>拉丁美裔</td>
+                                <td>1880-06-27</td>
+                                <td> Life is either a daring adventure or nothing.</td>
+                                <td><img src="./image/gongzuoliuchengtu.png" title="流程图"></td>
+                            </tr>
+                            <tr>
+                                <td>岳飞</td>
+                                <td>汉族</td>
+                                <td>1103-北宋崇宁二年</td>
+                                <td>教科书再滥改，也抹不去“民族英雄”的事实</td>
+                                <td><img src="./image/gongzuoliuchengtu.png" title="流程图"></td>
+                            </tr>
+                            <tr>
+                                <td>孟子</td>
+                                <td>华夏族（汉族）</td>
+                                <td>公元前-372年</td>
+                                <td>猿强，则国强。国强，则猿更强！ </td>
+                                <td><img src="./image/gongzuoliuchengtu.png" title="流程图"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div id="test1" class="m-page"></div>
+
+            </div>
+            <div class="f-menu">
+                <div class="f-menu-top">
+                    <h2>功能菜单</h2>
+                    <a href="javascript:;">点我</a>
+                </div>
+                <div class="f-menu-carousel layui-carousel" id="carousel1">
+                    <div carousel-item>
+                        <div class="page1">
+                            <div class="cart-list">
+                                <div class="cart">
+                                    <img src="" alt="">
+                                    <h1>我是1号文字</h1>
+                                </div>
+                                <div class="cart">
+                                    <img src="" alt="">
+                                    <h1>我是2号文字</h1>
+                                </div>
+                                <div class="cart">
+                                    <img src="" alt="">
+                                    <h1>我是3号文字</h1>
+                                </div>
+                            </div>
+                            <div class="cart-list">
+                                <div class="cart">
+                                    <img src="" alt="">
+                                    <h1>我是4号文字</h1>
+                                </div>
+                                <div class="cart">
+                                    <img src="" alt="">
+                                    <h1>我是5号文字</h1>
+                                </div>
+                                <div class="cart">
+                                    <img src="" alt="">
+                                    <h1>我是6号文字</h1>
+                                </div>
+                            </div>
+                        </div>
+                        <div>1</div>
+                        <div>1</div>
+                        <div>1</div>
+                        <div>1</div>
+                    </div>
+                </div>
+                <div class="f-menu-bottom">
+                    <h2>值班信息</h2>
+                    <a href="javascript:;">更多</a>
+                </div>
+                <div class="f-menu-work layui-carousel" id="carousel2">
+                    <div carousel-item>
+                        <div class="groups">
+                            <div class="group1">
+                                <h5>2017年8月24日 星期日</h5>
+                                <ul>
+                                    <li>
+                                        <span class="person">当前值班人员：</span><span class="p12 c6">梁生林</span>
+                                    </li>
+                                    <li>
+                                        <span class="person">接班人：</span><span class="p12 c6">值班组</span>
+                                    </li>
+                                    <li>
+                                        <span class="tel">值班室电话：</span><span class="p12 c6">023-61840290</span>
+                                    </li>
+                                </ul>
+
+                            </div>
+                            <div class="group1">
+                                <h5>2017年8月24日 星期日</h5>
+                                <ul>
+                                    <li>
+                                        <span class="person">当前值班人员：</span><span class="p12 c6">梁生林</span>
+                                    </li>
+                                    <li>
+                                        <span class="person">接班人：</span><span class="p12 c6">值班组</span>
+                                    </li>
+                                    <li>
+                                        <span class="tel">值班室电话：</span><span class="p12 c6">023-61840290</span>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                        <div class="groups">2</div>
+                        <div class="groups">2</div>
+                        <div class="groups">2</div>
+                        <div class="groups">2</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="g-assembly">
+            <div class="m-ass-tab">
+                <div class="f-menu-top">
+                    <h2>全景监控</h2>
+                </div>
+                <div class="layui-form">
+                    <div class="layui-form-item">
+                        <label class="layui-form-label layui-label">当前探测业务</label>
+                        <div class="layui-input-inline">
+                            <select name="modules" lay-verify="required" lay-search="">
+                                <option value="">直接选择或搜索选择</option>
+                                <option value="1">layer</option>
+                                <option value="2">form</option>
+                                <option value="3">layim</option>
+                                <option value="4">element</option>
+                            </select>
+                            <div class="layui-form-select">
+                                <div class="layui-select-title"><input type="text" placeholder="直接选择或搜索选择" value=""
+                                        class="layui-input"><i class="layui-edge"></i></div>
+                                <dl class="layui-anim layui-anim-upbit">
+                                    <dd lay-value="" class="layui-select-tips">直接选择或搜索选择</dd>
+                                    <dd lay-value="1" class="">layer</dd>
+                                    <dd lay-value="2" class="">form</dd>
+                                    <dd lay-value="3" class="">layim</dd>
+                                    <dd lay-value="4" class="">element</dd>
+                                </dl>
+                            </div>
+                        </div>
+                        <div class="layui-input-inline">
+                            <select name="modules1" lay-verify="required" lay-search="">
+                                <option value="">直接选择或搜索选择</option>
+                                <option value="1">layer</option>
+                                <option value="2">form</option>
+                                <option value="3">layim</option>
+                                <option value="4">element</option>
+                            </select>
+                            <div class="layui-form-select">
+                                <div class="layui-select-title"><input type="text" placeholder="直接选择或搜索选择" value=""
+                                        class="layui-input"><i class="layui-edge"></i></div>
+                                <dl class="layui-anim layui-anim-upbit">
+                                    <dd lay-value="" class="layui-select-tips">直接选择或搜索选择</dd>
+                                    <dd lay-value="1" class="">layer</dd>
+                                    <dd lay-value="2" class="">form</dd>
+                                    <dd lay-value="3" class="">layim</dd>
+                                    <dd lay-value="4" class="">element</dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <ul class="m-l-warp">
+                    <li>
+                        <div class="m-list-head">
+                            <h3 class="p14 cf">PUNK码查询</h3>
+                        </div>
+                        <div class="m-list-box">
+                            <ul class="m-list-info">
+                                <li>
+                                    <h4 class="p12">可用性</h4><i class="p12 cf">70%</i>
+                                </li>
+                                <li>
+                                    <p class="p12">最新耗时</p><span class="p12 c6">104</span>
+                                </li>
+                                <li>
+                                    <p class="p12">平均耗时</p><span class="p12 c6">104</span>
+                                </li>
+                                <li>
+                                    <p class="p12">全国均值耗时</p><span class="p12 c6">104</span>
+                                </li>
+                            </ul>
+                            <p class="time p12 c9">2018-10-26 17:33:10</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="m-list-head">
+                            <h3 class="p14 cf">登录</h3>
+                        </div>
+                        <div class="m-list-box">
+                            <ol class="m-list-info">
+                                <li>
+                                    <h4 class="p12">可用性</h4><i class="p12 cf">70%</i>
+                                </li>
+                                <li>
+                                    <p class="p12">最新耗时</p><span class="p12 c6">104</span>
+                                </li>
+                                <li>
+                                    <p class="p12">平均耗时</p><span class="p12 c6">104</span>
+                                </li>
+                                <li>
+                                    <p class="p12">全国均值耗时</p><span class="p12 c6">104</span>
+                                </li>
+                            </ol>
+                            <p class="time p12 c9">2018-10-26 17:33:10</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="m-list-head">
+                            <h3 class="p14 cf">积分查询</h3>
+                        </div>
+                        <div class="m-list-box">
+                            <ol class="m-list-info">
+                                <li>
+                                    <h4 class="p12">可用性</h4><i class="p12 cf">70%</i>
+                                </li>
+                                <li>
+                                    <p class="p12">最新耗时</p><span class="p12 c6">104</span>
+                                </li>
+                                <li>
+                                    <p class="p12">平均耗时</p><span class="p12 c6">104</span>
+                                </li>
+                                <li>
+                                    <p class="p12">全国均值耗时</p><span class="p12 c6">104</span>
+                                </li>
+                            </ol>
+                            <p class="time p12 c9">2018-10-26 17:33:10</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="m-list-head">
+                            <h3 class="p14 cf">缴费</h3>
+                        </div>
+                        <div class="m-list-box">
+                            <ol class="m-list-info">
+                                <li>
+                                    <h4 class="p12">可用性</h4><i class="p12 cf">70%</i>
+                                </li>
+                                <li>
+                                    <p class="p12">最新耗时</p><span class="p12 c6">104</span>
+                                </li>
+                                <li>
+                                    <p class="p12">平均耗时</p><span class="p12 c6">104</span>
+                                </li>
+                                <li>
+                                    <p class="p12">全国均值耗时</p><span class="p12 c6">104</span>
+                                </li>
+                            </ol>
+                            <p class="time p12 c9">2018-10-26 17:33:10</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="m-list-head">
+                            <h3 class="p14 cf">客户信息查询</h3>
+                        </div>
+                        <div class="m-list-box">
+                            <ol class="m-list-info">
+                                <li>
+                                    <h4 class="p12">可用性</h4><i class="p12 cf">70%</i>
+                                </li>
+                                <li>
+                                    <p class="p12">最新耗时</p><span class="p12 c6">104</span>
+                                </li>
+                                <li>
+                                    <p class="p12">平均耗时</p><span class="p12 c6">104</span>
+                                </li>
+                                <li>
+                                    <p class="p12">全国均值耗时</p><span class="p12 c6">104</span>
+                                </li>
+                            </ol>
+                            <p class="time p12 c9">2018-10-26 17:33:10</p>
+                        </div>
+                    </li>
+                </ul> -->
+                <div class="carts">
+                    <div class="cart1">
+                        <a href="" class="im9"></a>
+                        <div class="cart-con">
+                            <p class="green">111</p><button type="button"
+                                class="layui-btn  layui-btn-sm layui-btn-radius">100%</button>
+                        </div>
+                        <div class="cart-con">
+                            <p>一二</p>
+                            <p>100%</p>
+                        </div>
+                        <div class="cart-con">
+                            <p>一二三的</p>
+                            <p>%</p>
+                        </div>
+                        <div class="cart-con">
+                            <p>全国评价时间</p>
+                            <p>1053853</p>
+                        </div>
+                    </div>
+                    <div class="cart1">
+                        <a href="" class="im10"></a>
+                        <div class="cart-con">
+                            <p class="red">111</p><button type="button"
+                                class="layui-btn  layui-btn-sm layui-btn-radius">100%</button>
+                        </div>
+                        <div class="cart-con">
+                            <p>一二</p>
+                            <p>100%</p>
+                        </div>
+                        <div class="cart-con">
+                            <p>一二三的</p>
+                            <p>%</p>
+                        </div>
+                        <div class="cart-con">
+                            <p>全国评价时间</p>
+                            <p>1053853</p>
+                        </div>
+                    </div>
+                    <div class="cart1">
+                        <a href="" class="im11"></a>
+                        <div class="cart-con">
+                            <p class="green">111</p><button type="button"
+                                class="layui-btn  layui-btn-sm layui-btn-radius">100%</button>
+                        </div>
+                        <div class="cart-con">
+                            <p>一二</p>
+                            <p>100%</p>
+                        </div>
+                        <div class="cart-con">
+                            <p>一二三的</p>
+                            <p>%</p>
+                        </div>
+                        <div class="cart-con">
+                            <p>全国评价时间</p>
+                            <p>1053853</p>
+                        </div>
+                        <div class="cart-con">
+                            <p>2018-10-26</p>
+                            <p>15:26:22</p>
+                        </div>
+                    </div>
+                    <div class="cart1">
+                        <a href="" class="im12"></a>
+                        <div class="cart-con">
+                            <p class="green">111</p><button type="button"
+                                class="layui-btn  layui-btn-sm layui-btn-radius">100%</button>
+                        </div>
+                        <div class="cart-con">
+                            <p>一二</p>
+                            <p>100%</p>
+                        </div>
+                        <div class="cart-con">
+                            <p>一二三的</p>
+                            <p>%</p>
+                        </div>
+                        <div class="cart-con">
+                            <p>全国评价时间</p>
+                            <p>1053853</p>
+                        </div>
+                    </div>
+                    <div class="cart1">
+                        <a href="" class="im13"></a>
+                        <div class="cart-con">
+                            <p class="green">111</p><button type="button"
+                                class="layui-btn  layui-btn-sm layui-btn-radius">100%</button>
+                        </div>
+                        <div class="cart-con">
+                            <p>一二</p>
+                            <p>100%</p>
+                        </div>
+                        <div class="cart-con">
+                            <p>一二三的</p>
+                            <p>%</p>
+                        </div>
+                        <div class="cart-con">
+                            <p>全国评价时间</p>
+                            <p>1053853</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="m-ass-menu">
+                <div class="m-knowledge">
+                    <div class="f-menu-top">
+                        <h2>知识库</h2>
+                        <a href="javascript:;">点我</a>
+                    </div>
+                </div>
+                <ul class="knowledge-tab">
+                    <li class=" tab-active">经验</li>
+                    <li class="">文档</li>
+                    <li class="">问答</li>
+                </ul>
+                <div class="cart2">
+                    <a href="">1</a>
+                    <div>
+                        <p>如何用开源软件Docker编排容器</p>
+                        <p>2019 10-26</p>
+                    </div>
+                </div>
+                <div class="cart2">
+                    <a href="">2</a>
+                    <div>
+                        <p>如何用开源软件Docker编排容器</p>
+                        <p>2019 10-26</p>
+                    </div>
+                </div>
+                <div class="cart2">
+                    <a href="">3</a>
+                    <div>
+                        <p>如何用开源软件Docker编hjhghhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh排容器</p>
+                        <p>2019 10-26</p>
+                    </div>
+                </div>
+                <div class="cart2">
+                    <a href="" class="p20">4</a>
+                    <div>
+                        <p>如何用开源软件Docker编排容器</p>
+                        <p>2019 10-26</p>
+                    </div>
+                </div>
+                <div class="cart2">
+                    <a href="" class="p20">5</a>
+                    <div>
+                        <p>如何用开源软件Docker编排容器</p>
+                        <p>2019 10-26</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="g-footer">
+
+    </div>
+</body>
+
+
+
+<script src="node_modules/layui-src/src/layui.js"></script>
+<script src="./demo2.js"></script>
+
+</html>
+
+</html>

@@ -1,0 +1,719 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.g-body{
+    /*  */
+    /* 
+    margin: 0 30px; */
+    /* */
+}
+body{
+    height: 100%;
+    min-width: 1200px;
+    position: relative;
+    background: #fff;
+    line-height: 24px;
+    /* overflow-x: auto;/ */
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;color: #000;
+}
+ul{
+    /* list-style-type: disc;  */
+    list-style: none;
+}
+li{
+    /* display: inline; */
+    white-space: nowrap;
+    height: 24px;
+    padding:0 10px;
+    /* cursor: pointer; */
+   
+}
+.p12 {
+    font-size: 12px;
+    padding: 0 10px;
+    text-align: center;
+    line-height: 24px;
+    cursor: pointer;
+}
+.f12 {
+    font-size: 12px;
+}
+
+ul,.g-header,.g-logo,.person-warp,.search-box,.g-carousel,.g-notice,.f-tab-middle
+,.g-form,.g-assembly,.f-menu,.f-menu-top,.f-tab-top,.f-menu-bottom,.cart-list,.cart-con,
+.logo-warp,.group1  li,.knowledge-tab,.carts,.cart1,.cart-con,.cart2,.cart2 div
+{
+    display: flex;
+}
+
+.g-header,.m-ass-menu,.f-menu,.cart1,.cart2 div{
+    flex-direction:column;
+}
+
+.g-logo,.f-menu-top,.f-menu-bottom,.group1  li,.cart-con{
+    justify-content: space-between;
+}
+.cart-list,.knowledge-tab,.carts{
+    justify-content: space-around;
+}
+
+.g-logo{
+    margin: 10px;
+}
+.logo-warp{
+    width: 372px;
+    margin-top: 20px;
+}
+.logo-warp a{
+    width: 120px;
+    height: 38px;
+    background: url(./image/logo.png) no-repeat center center;
+    background-size: contain;
+    margin-right: 10px;
+}
+.logo-warp h1{
+    position: relative;
+    top: 20%;
+    width: 242px;
+    height: 22px;
+    background: url(./image/title.png) no-repeat center center;
+    background-size: contain;
+}
+
+.search-box{
+    width: 452px;
+    height: 36px;
+}
+
+.search-box input{
+    height: 36px;
+    box-sizing: border-box;
+    border-width: 2px 0 2px 2px;
+    border-color: #1479d7;
+    border-style: solid;
+    line-height: normal;
+    flex: 1;
+    padding-left: 25px;
+    background: url(./image/18.png) no-repeat 5px center;
+    background-size: 15px 15px;
+}
+.search-box button{
+    width: 76px;
+    height: 36px;
+    text-align: center;
+    background-color: #1479d7;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid #1479d7;
+}
+.person-warp img{
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        background: url(./image/22.png) no-repeat center center; 
+        /* background: rebeccapurple; */ 
+}
+.g-nav li{
+    height: 60px;
+    padding: 0 20px;
+    font-size: 14px;
+}
+.g-nav li a{
+    display: block;
+    height: 100%;
+    line-height: 60px;
+    border-bottom: 5px solid #fff;
+}
+.g-container{
+    /* height: 500px; */
+    /* background: greenyellow; */
+    padding: 30px 10px;
+}
+.g-carousel{
+    height: 320px;  
+}
+.m-carousel{
+    flex: 1;
+    height: 100%;
+    background: saddlebrown;
+}
+.g-carousel .m-carousel .layui-carousel,.layui-carousel div{
+    width: 100% !important;
+}
+.m-carousel img{
+    width: 100%;
+    height: 100%;
+    background-image: url(./image/carousel.png);
+    background-size:100% 100%;
+}
+.g-carousel .m-carousel .layui-carousel-ind{
+    text-align: left !important;
+}
+.g-carousel .m-carousel .layui-carousel-ind ul{
+    padding: 0 30px !important;
+    display: block !important
+}
+.g-carousel .m-carousel .layui-carousel-ind ul li{
+    width: 30px !important;
+    height: 5px !important;
+    border-radius: 0px !important;
+}
+
+
+.calendar{
+    margin-left: 20px;
+    width: 318px;
+    height: 100%;
+    background: slateblue;
+}
+
+
+.calendar {
+    display: none;
+    /* width: 318px; */
+    /* padding: 10px; */
+    /* margin: 30px auto 0; */
+    background-color: #fafafa;
+    border-radius: 6px;
+  }
+  .calendar-title {
+    position: relative;
+    height: 20px;
+    background: #1479d7;
+    line-height: 20px;
+    padding: 10px 0;
+  }
+  .calendar-title a.title {
+    display: inline-block;
+    font-size: 14px;
+    text-indent: 10px;
+    color: white;
+    position: absolute;
+    left: 120px;
+  }
+  #backToday {
+    position: absolute;
+    left: 70%;
+    top: 8px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    background-color: rgb(255, 128, 142);
+    font-size: 18px;
+  }
+  .calendar-title .arrow {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 50px;
+  }
+  .calendar-title .arrow span {
+    color: white;
+    font-size: 26px;
+    cursor: pointer;
+  
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+  }
+  .calendar-title  span:hover {
+    color: black;
+  }
+  .calendar-title .arrow-prev {
+    float: left;
+  }
+  .calendar-title .arrow-next {
+    float: right;
+  }
+
+  .calendar-date {
+      /* display: block !important; */
+      display: flex;
+      flex-wrap: wrap;
+      overflow-y: hidden;
+  }
+  .calendar-week,
+  .calendar-date {
+    overflow: hidden;
+  }
+  .calendar-week .item,
+  .calendar-date .item {
+    float: left ;
+    width: 45px ;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+  }
+  .calendar-week {
+    padding-bottom: 6px;
+    /* border-bottom: 1px solid rgb(255, 128, 142); */
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .calendar-date {}
+  .calendar-date .item {
+    /* border-radius: 50%; */
+    cursor: pointer;
+    font-size: 14px;
+  }
+  .calendar-date .item:hover,
+  .calendar-date .item-curMonth:hover {
+    background-color: #f0f0f0;
+  }
+  .calendar-date .item-curMonth {
+    color: #666;
+  } 
+  .item{
+      color: #d6d6d6;
+  }
+  .calendar-week .item{
+    color:  #333
+  }
+  
+  .calendar-date .item-curDay,
+  .calendar-date .item-curDay:hover {
+    border: 1px solid #1479d7 ;
+    background: white;
+    color: #666;
+    box-sizing:border-box;
+    /* background-color: rgb(255, 128, 142); */
+  }
+  .calendar-today {
+    display: none;
+    opacity: 0;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 90px;
+    height: 48px;
+    padding: 6px 10px;
+    background-color: rgb(255, 128, 142);
+    border-radius: 5px;
+  }
+  .calendar-today .triangle {
+    position: absolute;
+    top: 50%;
+    left: -16px;
+    margin-top: -8px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: transparent rgb(255, 128, 142) transparent transparent;
+  }
+  .calendar-today p {
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  
+  
+  .arrow-prev,.arrow-next {
+    color:white;
+  font-size: 26px;
+  }
+  .arrow-prev-year,.arrow-next-year{
+  font-size: 20px;
+  color: white;
+  }
+  .arrow-prev {
+    position: absolute;
+    left: 60px;
+  }
+  .arrow-next{
+    position: absolute;
+    right: 60px;
+  }
+  .arrow-prev-year{
+    position: absolute;
+    left: 20px;
+  }
+  .arrow-next-year {
+    position: absolute;
+    right: 20px;
+  }
+
+
+
+.g-notice{
+    margin-top: 30px;
+    height: 40px;
+    line-height: 40px;
+   
+}
+.g-notice .a{
+    height: 100%;
+    width: 100%;
+    /* background: red; */
+    overflow: hidden;
+    position: relative;
+}
+.g-notice h2{
+    color: #1479d7;
+   min-width:30px;
+    font-size: 14px;
+    padding: 0 40px 0 22px;
+    background: url(./image/9.png) no-repeat left center;
+    /* bacground:red; */
+    background-size: 18px 20px;
+}
+.g-notice ul{
+    padding: 8px 0px;
+    width:100%;
+    overflow: hidden;
+    position: absolute;
+    left: 0px;
+    top: 0;
+}
+.g-notice b{
+    color: #ccc;
+    margin-right: 10px;
+}
+.g-notice ul li{
+    margin-left: 20px;
+    padding-left: 10px;
+    line-height: 24px;
+    height: 100%;
+    color: #ccc;
+    /* width: 202px; */
+    font-size: 14px;
+}
+.g-notice a{
+    /* background: url(../images/home/prev.png) no-repeat center center; */
+    color: #1479d7;
+    width: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+
+.m-ass-tab,.f-table{
+    flex: 1;
+    /* background: green; */
+}
+.f-tab-middle{
+    padding: 20px;
+}
+
+.f-table .f-tab-middle p{
+    padding-right: 20px;
+    margin-right: 20px;
+    border-right: 1px solid #ccc;
+    height: 14px;
+    line-height: 14px;
+    cursor: pointer;
+}
+.c1{
+    color: red;
+}
+ .g-form .f-table table{
+    font-size:14px;
+    margin-bottom: 20px;
+}
+.table-box{
+    width: 100%;
+    height: 580px;
+     /* overflow: scroll; */
+    overflow-y:scroll;
+    overflow-x:hidden;
+}
+.table-box::-webkit-scrollbar {
+    width: 4px;    
+    /* 滚动条样式 */
+}
+
+ .layui-table td {
+    font-size: 12px;
+    color: #333;
+}
+
+.layui-table td, .layui-table th {
+    position: relative;
+    padding: 9px 15px;
+    min-height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+}
+.m-page{
+    text-align: right;
+    margin-top: 20px;
+}
+.m-ass-menu,.f-menu{
+    width: 220px;
+    margin-left: 40px;
+    padding:20px;
+}
+.f-menu-top,.f-menu-bottom{
+    border-bottom: 1px solid rgb(120, 183, 235);
+}
+.f-tab-top{
+    border-bottom: 1px solid rgb(120, 183, 235);
+    margin-top: 20px;
+}
+
+.f-menu-bottom{
+    margin-top: 50px;
+}
+.f-tab-top h2,.f-menu-top h2,.f-menu-bottom  h2{
+    padding: 10px 10px 10px 23px;
+    background-size: 18px 18px;
+    line-height: 20px;
+    font-size:14px;
+}
+.f-menu-top h2,.f-menu-bottom  h2{
+    border-bottom: 2px solid #1479d7;
+
+}
+.f-tab-top h2{
+    border-bottom: 3px solid transparent;
+    margin-right: 40px;
+    /* border: none; */
+}
+.f-tab-top h2:first-child{
+    background: url(./image/8.png) no-repeat left center;
+}
+.f-tab-top h2:last-child{
+    background: url(./image/8.png) no-repeat left center;
+}
+.f-menu-top  h2{
+    background: url(./image/8.png) no-repeat left center;
+}
+.f-menu-bottom  h2{
+    background: url(./image/13.png) no-repeat left center;
+}
+.f-menu-top a,.f-menu-bottom a,.m-ass-top a{
+    padding: 0 3px;
+    height: 20px;
+    line-height: 20px;
+    border: 1px solid #eee;
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+.cart{
+    text-align: center;
+    padding: 20px 0; 
+    height: 50px;
+}
+.cart img{
+    background: red;
+    width: 24px;
+    height: 24px;
+    margin: auto;
+}
+.cart h1{
+    font-size: 12px;
+    color: #ccc;
+}
+.group1{
+    padding: 30px 0 0 0;
+}
+.group1 h5{
+    color: #666;
+        font-size: 14px;
+}
+.group1 ul{
+    display: inline;
+    /* margin-top: 10px; */
+}
+.group1  li{
+    color: #999;
+    font-size: 12px;
+}
+.group1 li span{
+  line-height: 2;
+}
+.person,.tel{
+    padding-left: 12px;
+   
+}
+.person{
+    background: url(./image/7.png) no-repeat left center;  
+    background-size: 10px 12px;
+}
+.tel{
+    background: url(./image/2.png) no-repeat left center;
+    background-size: 10px 12px;
+}
+
+
+/* g-assembly */
+
+.m-ass-tab{
+    margin-top: 20px;
+}
+.m-ass-tab .f-menu-top h2{
+    padding-left: 30px;
+    background: url(./image/14.png) no-repeat left center;
+}
+.m-knowledge,.f-menu-top  h2{
+    background: url(./image/8.png) no-repeat left center;
+}
+.knowledge-tab {
+    padding: 20px 0;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -moz-flex-align: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.knowledge-tab li{
+    flex: 1;
+    height: 14px;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer; border-right: 1px solid #ccc;
+}
+.knowledge-tab li:last-child{
+    border-right: none;
+}
+.g-assembly    .layui-form .layui-form-item label.layui-form-label{
+    width: 100px;
+    font-size: 14px;
+}
+.layui-form{
+    margin:20px 0;
+}
+.carts{
+    margin-top: 15px;
+}
+.cart1{
+    flex:1;
+    border: 1px solid #ccc;
+    margin-right: 30px;
+}
+  .cart1 a{
+    width: 100%;
+    height: 66px;
+    background-size:100% 100%;}
+  .cart-con{
+      padding: 8px 20px;
+      font-size: 11px;
+    }
+  .cart-con+.cart-con{
+      border-top: 1px solid skyblue;
+    }
+  /* .cart-con p{display: inline-block;padding: 10px 2px;} */
+  .cart-con p{
+      line-height:28px ;
+      color: #ccc;
+    }
+  .cart-con .green{
+      color: rgb(10, 228, 126);
+    }
+  .cart-con .red{
+      color:red
+    }
+  .im9{background: url(./image/jk1.png)  no-repeat center center; height: 65px;}
+  .im10{background: url(./image/jk2.png)  no-repeat center center; height: 65px;}
+  .im11{background: url(./image/jk3.png)  no-repeat center center; height: 65px;}
+  .im12{background: url(./image/jk4.png)  no-repeat center center; height: 65px;}
+  .im13{background: url(./image/jk5.png)  no-repeat center center; height: 65px;}
+  .layui-btn-sm{height: 20px !important; line-height: 15px !important}
+
+  .cart2{
+    width: 240px;
+    /* background: seagreen; */
+    padding: 15px 30px 0 11px;
+    position: relative;
+  }
+  .cart2 a{
+      top:50%;
+      left: 0;
+      margin: auto;
+      position: absolute;
+    display: inline-block;
+    background-color: rgb(20, 121, 215);
+    width: 23px;
+    height: 23px; 
+    /* margin: 20px 20px 0 0; */
+    text-align: center;
+    line-height: 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+   }
+   .cart2 div{
+     font-size: 14px;
+     margin-left: 50px;
+   }
+   .cart2 p{max-width: 177px;overflow-wrap: break-word;}
+   .cart2 p+p{margin-top: 8px;}
+   .cart2 .p20{border-color:white;background-color: rgb(10, 200, 120);}
+
+
+
+   /* 状态 */
+.active{
+    background: #1479d7;
+    color: white;
+}
+
+.active-this{
+    color:red ;
+    border-color: #1479d7 !important; 
+}/* 
+.g-nav li:hover{
+    border-color: #1479d7; 
+}  */
+.f-table .h2-active{
+    color: #1479d7;
+    border-bottom: 3px solid #1479d7;
+}
+/* .f-tab-top h2:hover{
+    color: #1479d7;
+    border-bottom: 3px solid #fff;
+    border-color: #1479d7 !important; 
+} */
+
+.layui-carousel>*[carousel-item] > * {
+    background-color: white !important;
+}
+
+/* .search-nav li:hover{
+    background: #1479d7;
+    color: white;
+} */
+.tab-active{
+    color:#1479d7
+}
+
+
+.f-menu-carousel .layui-carousel-ind ul li{
+    background-color:orange;
+}
+
+.f-menu-carousel .layui-carousel-ind ul {
+    background-color: rgba(255, 255, 255, 0.925)
+}
+.f-menu-carousel  .layui-carousel-ind li.layui-this {
+    background-color:green;
+}
+
+.f-menu-work .layui-carousel-ind ul li{
+    background-color:orange;
+}
+
+.layui-carousel[lay-indicator="outside"] .layui-carousel-ind ul {
+    background-color: rgba(255, 255, 255, 0.925) !important;
+}
+.f-menu-work  .layui-carousel-ind li.layui-this {
+    background-color:green;
+}
+
+.mm{
+    color:red
+}
